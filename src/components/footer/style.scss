@@ -1,0 +1,140 @@
+.footer {
+  padding: 50px 0;
+  background-color: #121820;
+  color: #fff;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    cursor: pointer;
+
+    &-subtitle {
+      display: block;
+      margin-top: 15px;
+      font-size: 12px;
+      color: #a9aeb3;
+    }
+  }
+
+  &__contacts {
+    margin: 0 auto;
+    &-title {
+      display: block;
+      margin-top: 10px;
+
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    &-wrapper {
+      display: flex;
+      margin-top: 30px;
+    }
+    &-addr > a {
+      display: block;
+
+      position: relative;
+      max-width: 220px;
+      padding-left: 40px;
+      margin-bottom: 20px;
+
+      line-height: 20px;
+      font-size: 13px;
+      color: #a9aeb3;
+      &:before {
+        content: url('../../../public/img/map.svg');
+
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &:hover:before {
+        content: url('../../../public/img/map-hover.svg');
+      }
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &__right {
+    margin-top: 65px;
+  }
+
+  &__phone {
+    &-num {
+      position: relative;
+
+      padding-left: 30px;
+      color: #a9aeb3;
+
+      &:hover {
+        color: #fff;
+      }
+
+      &:before {
+        content: url('../../../public/img/smartphone.svg');
+
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        width: 20px;
+        height: 20px;
+      }
+      &:hover:before {
+        content: url('../../../public/img/smartphone-hover.svg');
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    margin-top: 50px;
+    li {
+      margin-right: 10px;
+    }
+
+    &-map:hover {
+      fill: #fff;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .footer__logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__contacts-wrapper {
+    margin-top: 20px;
+  }
+  .footer__contacts-title {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .footer__contacts-addr a {
+    margin-bottom: 15px;
+  }
+
+  .footer__right {
+    margin: 20px auto;
+  }
+
+  .footer__social {
+    justify-content: center;
+  }
+}

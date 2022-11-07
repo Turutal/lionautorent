@@ -1,0 +1,23 @@
+.catalog__pagination {
+  margin: 50px auto 0;
+  width: 100px;
+  display: flex;
+
+  &-link {
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 14px;
+
+    border: 1px solid #828282;
+
+    &:hover {
+      background-color: #253241;
+      color: #fff;
+    }
+  }
+
+  &-current {
+    background-color: #253241;
+    color: #fff;
+  }
+}
