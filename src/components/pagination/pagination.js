@@ -17,7 +17,10 @@ const Pagination = ({ carsPerPage, totalCars, paginate, currentPage }) => {
             className={`catalog__pagination-link ${
               currentPage === number ? 'catalog__pagination-current' : ''
             }`}
-            onClick={() => paginate(number)}
+            onClick={() => {
+              paginate(number);
+              paginate.preventdefault();
+            }}
           >
             {number}
           </a>

@@ -9,13 +9,13 @@ const navLinks = [
 function Navigation() {
   return (
     <nav className="navigation">
-      <a href="#" className="navigation__logo">
+      <a href="https://lionautorent.vercel.app/!#" className="navigation__logo">
         <img src="/img/logo-footer.svg" width="130px" alt="Логотип" />
       </a>
       <div className="navigation__links">
         {navLinks.map((item) => {
           return (
-            <a href="#" key={item.title}>
+            <a href="!#" key={item.title}>
               {item.title}
             </a>
           );

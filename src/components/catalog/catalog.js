@@ -221,7 +221,10 @@ function Catalog() {
   const firstCarIndex = lastCarIndex - carsPerPage;
   const currentCar = cars.slice(firstCarIndex, lastCarIndex);
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    pageNumber.preventdefault();
+  };
 
   return (
     <>
