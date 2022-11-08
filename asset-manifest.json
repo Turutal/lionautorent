@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lionautorent/static/css/main.ef5c9c1c.css",
-    "main.js": "/lionautorent/static/js/main.4e9965cb.js",
+    "main.css": "/lionautorent/static/css/main.e83add7e.css",
+    "main.js": "/lionautorent/static/js/main.96b660f9.js",
     "static/media/banner-merc.jpg": "/lionautorent/static/media/banner-merc.8e35477546858528191a.jpg",
     "static/media/map.svg": "/lionautorent/static/media/map.aedfb70ef35f4ee50ebb.svg",
     "static/media/map-hover.svg": "/lionautorent/static/media/map-hover.f248e403732aac21a7a6.svg",
     "static/media/smartphone.svg": "/lionautorent/static/media/smartphone.ae4f2b44353685e85731.svg",
     "static/media/smartphone-hover.svg": "/lionautorent/static/media/smartphone-hover.92499ec569f2e73decde.svg",
     "index.html": "/lionautorent/index.html",
-    "main.ef5c9c1c.css.map": "/lionautorent/static/css/main.ef5c9c1c.css.map",
-    "main.4e9965cb.js.map": "/lionautorent/static/js/main.4e9965cb.js.map"
+    "main.e83add7e.css.map": "/lionautorent/static/css/main.e83add7e.css.map",
+    "main.96b660f9.js.map": "/lionautorent/static/js/main.96b660f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef5c9c1c.css",
-    "static/js/main.4e9965cb.js"
+    "static/css/main.e83add7e.css",
+    "static/js/main.96b660f9.js"
   ]
 }
