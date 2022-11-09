@@ -3,12 +3,13 @@
   width: 100px;
   display: flex;
 
-  &-link {
+  &-item {
     padding: 10px 15px;
     margin-right: 10px;
     font-size: 14px;
 
     border: 1px solid #828282;
+    cursor: pointer;
 
     &:hover {
       background-color: #253241;
@@ -16,7 +17,7 @@
     }
   }
 
-  &-current {
+  &-item--current {
     background-color: #253241;
     color: #fff;
   }

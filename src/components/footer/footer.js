@@ -2,12 +2,12 @@ import './style.scss';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="container">
         <div className="footer__logo-wrapper">
           <img
             className="footer__logo"
-            src="/img/logo-footer.svg"
+            src="./img/logo-footer.svg"
             width="130px"
             alt="Логотип"
           />

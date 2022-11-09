@@ -7,7 +7,7 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .navigation__wrapper {
@@ -41,4 +41,13 @@
 
 .catalog {
   padding: 50px 0;
+}
+
+.terms {
+  background: url(../public/img/terms/terms.jpg) center/cover no-repeat;
+
+  &__background-wrapper {
+    padding: 80px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
 }

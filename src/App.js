@@ -2,6 +2,7 @@ import './reset.scss';
 import './App.scss';
 import Navigation from './components/navigation/';
 import Catalog from './components/catalog/';
+import Terms from './components/terms/';
 import Footer from './components/footer/';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <div className="banner">
           <div className="banner__wrapper">
             <h1 className="banner__title">Lion Auto Rent</h1>
-            <h2 className="banner__subtitle">Прокат авто</h2>
+            <h2 className="banner__subtitle">Аренда авто</h2>
           </div>
         </div>
       </header>
@@ -24,6 +25,13 @@ function App() {
         <section className="catalog">
           <div className="container">
             <Catalog />
+          </div>
+        </section>
+        <section className="terms">
+          <div className="terms__background-wrapper">
+            <div className="container">
+              <Terms />
+            </div>
           </div>
         </section>
       </main>

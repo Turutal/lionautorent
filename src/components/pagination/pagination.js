@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './style.scss';
 
 const Pagination = ({ carsPerPage, totalCars, paginate, currentPage }) => {
@@ -11,19 +12,20 @@ const Pagination = ({ carsPerPage, totalCars, paginate, currentPage }) => {
   return (
     <ul className="catalog__pagination">
       {pageNumbers.map((number) => (
-        <li className="catalog__pagination-item" key={number}>
-          <a
-            href="!#"
-            className={`catalog__pagination-link ${
-              currentPage === number ? 'catalog__pagination-current' : ''
+        <li key={number}>
+          <Link
+            className={`catalog__pagination-item ${
+              currentPage === number ? 'catalog__pagination-item--current' : ''
             }`}
-            onClick={() => {
-              paginate(number);
-              paginate.preventdefault();
-            }}
+            onClick={() => paginate(number)}
+            key={number}
+            to="catalog"
+            smooth="easeInOutQuad"
+            offset={-10}
+            duration={1000}
           >
             {number}
-          </a>
+          </Link>
         </li>
       ))}
     </ul>
