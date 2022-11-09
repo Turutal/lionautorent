@@ -31,7 +31,7 @@ const catalogArray = [
     link: 'https://api.whatsapp.com/send?phone=77001555055&text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20Mercedes-Benz%20G550%202009%20%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9',
   },
   {
-    url: './img/cars/merc-vito.jpg',
+    url: './img/cars/merc-vito1.jpg',
     title: 'Mercedes V-class',
     year: '2013',
     color: 'Чёрный',
@@ -40,7 +40,7 @@ const catalogArray = [
     link: 'https://api.whatsapp.com/send?phone=77001555055&text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20Mercedes%20V-class%202013%20%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9',
   },
   {
-    url: './img/cars/cadillac-Escalade.jpeg',
+    url: './img/cars/cadillac-escalade1.jpeg',
     title: 'Cadillac Escalade',
     year: '2016',
     color: 'Чёрный',
@@ -49,7 +49,7 @@ const catalogArray = [
     link: 'https://api.whatsapp.com/send?phone=77001555055&text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20Cadillac%20Escalade%202016%20%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9',
   },
   {
-    url: './img/cars/merc-sclass.jpg',
+    url: './img/cars/merc-sclass1.jpg',
     title: 'Mercedes-Benz W222',
     year: '2017',
     color: 'Белый',
@@ -67,7 +67,7 @@ const catalogArray = [
     link: 'https://api.whatsapp.com/send?phone=77001555055&text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20BMW%20X5%202020%20%D0%A2%D1%91%D0%BC%D0%BD%D0%BE-%D1%81%D0%B8%D0%BD%D0%B8%D0%B9',
   },
   {
-    url: './img/cars/range-rover.jpg',
+    url: './img/cars/range-rover1.jpg',
     title: 'Range Rover',
     year: '2017',
     color: 'Чёрный',
@@ -103,7 +103,7 @@ const catalogArray = [
     link: 'https://api.whatsapp.com/send?phone=77001555055&text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20Toyota%20Land%20Cruiser%20Prado%202017%20%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9',
   },
   {
-    url: './img/cars/bmw-750.jpeg',
+    url: './img/cars/bmw-7501.jpeg',
     title: 'BMW 750',
     year: '2016',
     color: 'Чёрный',
