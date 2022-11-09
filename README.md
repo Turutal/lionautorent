@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ## Link
 
-
+Open to view [Lionautorent](https://turutal.github.io/lionautorent/)
 
 ### `npm start`
 
