@@ -4,7 +4,7 @@ const Terms = () => {
   return (
     <>
       <h2 className="terms__title">Условия Аренды</h2>
-      <div className="terms__wrapper">
+      <div className="terms__wrapper" id="terms">
         <div className="terms__wrapper-item">
           <img src="./img/terms/driver.png" alt="driver" />
           <ul className="terms__list">

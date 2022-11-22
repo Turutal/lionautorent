@@ -1,9 +1,10 @@
+import { Link } from 'react-scroll';
 import './style.scss';
 
 const navLinks = [
-  { title: 'Условия' },
-  { title: 'Каталог' },
-  { title: 'Контакты' },
+  { title: 'Условия', id: 'terms' },
+  { title: 'Каталог', id: 'catalog' },
+  { title: 'Контакты', id: 'footer' },
 ];
 
 function Navigation() {
@@ -15,9 +16,15 @@ function Navigation() {
       <div className="navigation__links">
         {navLinks.map((item) => {
           return (
-            <a href="!#" key={item.title}>
+            <Link
+              key={item.title}
+              to={item.id}
+              smooth="easeInOutQuad"
+              offset={-10}
+              duration={1000}
+            >
               {item.title}
-            </a>
+            </Link>
           );
         })}
       </div>
